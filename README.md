@@ -3,7 +3,7 @@ As per the requirements sent ... well maybe not exactly
 
 
 ## Quick start
-Install python 3.10+
+Install python 3.10+ (my tests have been done with 3.13, but 3.10 should suffice, maybe even 3.8)
 
 Create virtual environment by running:
 ```shell
@@ -26,12 +26,12 @@ Install requirements
 pip install .
 ```
 
-Run
+Run the sim
 ```shell
 python exec.py
 ```
 
-to run the tests
+To run the tests
 ```shell
 pytest .
 ```
